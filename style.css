@@ -8,14 +8,17 @@
 
 body {
     background-color: rgba(198, 214, 254, 0.724);
+    text-decoration: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 header {
     padding: 5px;
+    background-color: rgba(102, 102, 232, 0.864);
     
 }
 
-a {
+a{
     text-decoration: none;
 }
 
@@ -30,6 +33,7 @@ a {
 }
 
 .NomeDoJogo {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Pixelify Sans','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:xx-large;
 }
 

@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+.NomeDoJogo {
+    font-family: 'Pixelify Sans','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:xx-large;
+}
+
+body {
+    background-color: rgba(198, 214, 254, 0.724);
+    text-align: center;
+    background-image: url("imagens/e");
+
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* Estilos gerais do formulário */
+form {
+    width: 300px;
+    margin: 0 auto;
+    padding: 40px;
+    border: 1px solid #070c44;
+    border-radius: 15px;
+    background-color: #435b95;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Estilos para os labels */
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: aliceblue;
+  }
+  
+  /* Estilos para os inputs */
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  /* Estilos para o botão de submit */
+  button[type="submit"] {
+    background-color: #4CAF50; /* Verde */
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  /* Estilos para o botão de submit ao passar o mouse */
+  button[type="submit"]:hover {
+    background-color: #45a049; /* Verde mais escuro */
+  }
+  
+  /* Estilos para mensagens de erro */
+  .error {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
