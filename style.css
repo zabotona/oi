@@ -1,39 +1,35 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
-
-* {
-    padding: 0%;
-    margin: 0%;
+*{
+    box-sizing: border-box;
+    padding: 0 auto;
+    margin: 0 auto;
 }
 
-body {
-    background-color: rgba(198, 214, 254, 0.724);
-    text-decoration: none;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    position: static;
 }
 
-header {
-    padding: 5px;
-    background-color: rgba(102, 102, 232, 0.864);
-    
+li {
+    list-style-type: none;
 }
 
-a{
-    text-decoration: none;
-}
-
-.menu {
-    display: flex;
-    justify-content: center;
-    
-}
-
-.Opcao {
+.navbar{
+    background-color: rgb(226, 230, 191);
+    position: sticky;
+    top: 0;
+    box-shadow: 10px 0px 10px #212020;
+    z-index: 99;
     padding: 1%;
 }
 
-.NomeDoJogo {
-    font-family: 'Pixelify Sans','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size:xx-large;
+.header-inner-content{
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
+.img-link{
+    width: 38px;
+    margin-left: 5px;
+    margin-right: 5px;
+}

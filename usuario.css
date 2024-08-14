@@ -5,28 +5,26 @@
     margin: 0%;
 }
 
-.NomeDoJogo {
-    font-family: 'Pixelify Sans','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size:xx-large;
-}
 
 body {
     background-color: rgba(198, 214, 254, 0.724);
     text-align: center;
     background-image: url("imagens/e");
-
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 a {
     text-decoration: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+    color: #ffffff;
 }
-
 
 /* Estilos gerais do formulário */
 form {
     width: 300px;
     margin: 0 auto;
-    padding: 40px;
+    padding: 30px;
     border: 1px solid #070c44;
     border-radius: 15px;
     background-color: #435b95;
@@ -77,3 +75,6 @@ form {
     margin-bottom: 10px;
   }
   
+  .Cadastro{
+    color: #ffffff;
+  }
