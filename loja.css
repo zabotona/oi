@@ -9,8 +9,16 @@ body{
     position: static;
 }
 
-li {
+ul li {
     list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1{
+    color: #212020;
 }
 
 .navbar{

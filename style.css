@@ -9,8 +9,22 @@ body{
     position: static;
 }
 
-li {
+ul li {
     list-style-type: none;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1{
+    color: #212020;
 }
 
 .navbar{
@@ -32,4 +46,11 @@ li {
     width: 38px;
     margin-left: 5px;
     margin-right: 5px;
+    transition: 0.50s;
+}
+
+.img-link:hover{
+    background-color: rgb(47, 104, 48);
+    border-radius: 10px;
+    padding: 5px;
 }
