@@ -21,6 +21,10 @@ h1{
     color: #212020;
 }
 
+.Produto{
+    display: inline-flex;
+}
+
 .navbar{
     background-color: rgb(226, 230, 191);
     position: sticky;
