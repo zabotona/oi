@@ -21,8 +21,10 @@ h1{
     color: #212020;
 }
 
-.Produto{
-    display: inline-flex;
+nav ul {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
 }
 
 .navbar{
@@ -51,11 +53,5 @@ h1{
     background-color: rgb(47, 104, 48);
     border-radius: 10px;
     padding: 5px;
-}
-
-nav ul {
-    display: flex;
-    align-items: center;
-    cursor: pointer;
 }
 
