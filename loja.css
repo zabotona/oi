@@ -1,11 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap');
+
+
 *{
     box-sizing: border-box;
     padding: 0 auto;
     margin: 0 auto;
+    font-family: 'Kumbh Sans';
 }
 
 body{
-    font-family: Arial, Helvetica, sans-serif;
     position: static;
 }
 
@@ -15,6 +18,7 @@ ul li {
 
 a {
     text-decoration: none;
+    color: rgb(0, 0, 0);
 }
 
 h1{
@@ -27,11 +31,16 @@ nav ul {
     cursor: pointer;
 }
 
+.Nome{
+    font-size: xx-large;
+    font-weight: bold;
+}
+
 .navbar{
     background-color: rgb(226, 230, 191);
     position: sticky;
     top: 0;
-    box-shadow: 10px 0px 10px #212020;
+     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.474);
     z-index: 99;
     padding: 1%;
 }
@@ -55,3 +64,49 @@ nav ul {
     padding: 5px;
 }
 
+.espacamento{
+    padding: 10px;
+}
+
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(247, 248, 238, 0.94);
+    width: 200px;
+    height: 280px;
+    border-radius: 10%;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.474);
+    padding: -5%;
+    margin-bottom: 10px;
+}
+
+.informacao-do-produto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.tamanho-imagem{
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card button{
+    border: none;
+    border-radius: 10px;
+    width: 100px;
+    height: 25px;
+    background-color: rgb(64, 218, 82);
+}
+
+.card button:hover{
+    background-color: rgb(51, 177, 66);
+}
+
+.produtos{
+    display: flex;
+    flex-wrap: wrap;
+}
