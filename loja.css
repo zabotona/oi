@@ -76,7 +76,7 @@ nav ul {
     height: 280px;
     border-radius: 10%;
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.474);
-    padding: -5%;
+    padding: -15%;
     margin-bottom: 10px;
 }
 
@@ -93,6 +93,33 @@ nav ul {
     flex-direction: column;
     justify-content: center;
 }
+
+.tamanho-mochila{ 
+    width: 125px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tamanho-casaco{
+    width: 140px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.tamanho-casaco-3{
+    width: 170px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
 
 .card button{
     border: none;
