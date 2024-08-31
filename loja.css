@@ -120,6 +120,10 @@ nav ul {
 
 }
 
+.tamanho-meia{
+    width: 150px;
+    height: 150px;
+}
 
 .card button{
     border: none;
