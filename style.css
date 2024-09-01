@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap');
+
+
 *{
     box-sizing: border-box;
     padding: 0 auto;
     margin: 0 auto;
+    font-family: 'Kumbh Sans';
 }
 
 body{
@@ -24,7 +28,6 @@ a {
     text-decoration: none;
     color: #000;
 }
-
 
 
 
@@ -64,9 +67,36 @@ h1{
     padding-left: 10%;
     padding-right: 10%;
     text-align: center;
+    
 }
 
 .Jogo{
     font-size: 35px;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    padding: 1%;
 }
 
+.esquerda{
+    height: 100%;
+    flex-basis: 50%;
+    
+}
+
+span{
+    color: rgb(226, 230, 191);
+    font-size: 150%;
+    font-weight: bolder;
+}
+
+.direita{
+    flex-basis: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{
+    width: 100%;
+}
