@@ -9,7 +9,11 @@ body {
   background-color: rgb(255, 255, 255);
   text-align: center;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, rgb(241, 199, 199), rgb(132, 132, 189));
+}
 
+p{
+  font-size: 40px;
 }
 
 a {
@@ -26,7 +30,7 @@ form {
   padding: 30px;
   border: 2px solid rgb(137, 142, 93);
   border-radius: 15px;
-  background-color: rgb(226, 230, 191);
+  background-color: rgba(226, 230, 191);
   box-shadow: 0 2px 5px rgba(77, 76, 76, 0.5);
   min-width: 50px;
   min-height: 100px;
@@ -76,7 +80,38 @@ form {
   margin-bottom: 10px;
 }
   
+.box{
+  padding-top: 200px;
+}
+
 .Cadastro{
   color: rgb(0, 0, 0);
 }
 
+.navbar{
+  background-color: rgb(226, 230, 191);
+  position: sticky;
+  top: 0;
+  box-shadow: 10px 0px 10px #212020;
+  z-index: 99;
+  padding: 1%;
+}
+
+.header-inner-content{
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img-link{
+  width: 38px;
+  margin-left: 5px;
+  margin-right: 5px;
+  transition: 0.50s;
+}
+
+.img-link:hover{
+  background-color: rgb(47, 104, 48);
+  border-radius: 10px;
+  padding: 5px;
+}
