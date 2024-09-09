@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    padding: 0 auto;
+    margin: 0 auto;
+    font-family: 'Kumbh Sans';
+}
+
+body{
+    position: static;
+    background: linear-gradient(to right, rgb(241, 199, 199), rgb(132, 132, 189));
+}
+
+ul li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+header{
+    font-size: xxx-large;
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+    font-weight: bold;
+    background-color: rgb(221, 160, 221);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.474);
+}
+
+form {
+    width: 300px;
+    margin: 0 auto;
+    padding: 30px;
+    border: 2px solid rgb(160, 0, 160);
+    border-radius: 15px;
+    background-color: rgba(221, 160, 221);
+    box-shadow: 0 2px 5px rgba(77, 76, 76, 0.5);
+    min-width: 50px;
+    min-height: 100px;
+}
+
+.card{
+    padding-top: 190px;
+}
+
+.formulario{
+    display: flex;
+    justify-content: center;
+}
