@@ -12,6 +12,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     position: static;
     background: linear-gradient(to right, rgba(245, 166, 242, 0.408), rgba(89, 89, 198, 0.449));
+    
 }
 
 ul li {
@@ -34,6 +35,10 @@ a {
 
 h1{
     color: #212020;
+}
+
+img{
+    width: 250px;
 }
 
 .menu-horizontal {
@@ -64,6 +69,7 @@ h1{
 
 .conteudo {
     padding: 3%;
+    
     
 }
 
