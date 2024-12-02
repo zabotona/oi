@@ -10,9 +10,8 @@
 
 body{
     font-family: Arial, Helvetica, sans-serif;
-    position: static;
-    background: linear-gradient(to right, rgba(245, 166, 242, 0.408), rgba(89, 89, 198, 0.449));
-    
+    position: static; 
+    background-image: url(../imagens/pexels-stephan-seeber-1261728.jpg);
 }
 
 ul li {
@@ -41,23 +40,24 @@ img{
     width: 250px;
 }
 
-.menu-horizontal {
-    padding-top: 1%;
+p{
+    background-color: rgb(247, 247, 247);
+    padding: 5%;
+    border-radius: 15px;
+    
+    /* background: linear-gradient(to right, rgba(245, 166, 242, 0.408), rgba(89, 89, 198, 0.449)); */
 }
 
-.menu-horizontal a:hover {
-    background-color: rgb(160, 0, 160);
-    border-radius: 10%;
-    font-weight: bold;
-    color: rgba(0, 0, 0, 0.755);
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(79, 79, 79);
+    color: white;
+    padding: 3%;
 }
 
-.titulo {
-    padding-left: 5%;
-    color: rgb(132, 132, 189);
-    font-size: 20px;
-    font-weight: bold;
-    text-shadow: 4px 4px 10px rgb(249, 249, 249);
+.img-footer{
+    width: 40px;
 }
 
 .NomeDoJogo {
@@ -67,11 +67,6 @@ img{
     
 }
 
-.conteudo {
-    padding: 3%;
-    
-    
-}
 
 .navbar{
     background-color: rgb(221, 160, 221);
@@ -105,6 +100,7 @@ img{
     padding-left: 10%;
     padding-right: 10%;
     text-align: center;
+    
 }
 
 .Jogo{

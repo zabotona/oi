@@ -23,6 +23,7 @@ a {
   color: rgb(0, 0, 0);
 }
 
+
 /* Estilos gerais do formulário */
 form {
   width: 300px;
@@ -74,6 +75,13 @@ form {
   }
   
   /* Estilos para mensagens de erro */
+ input{
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid  rgb(160, 0, 160);
+  cursor: pointer;
+ }
+  
 .error {
   color: rgb(230, 3, 3);
   font-size: 14px;

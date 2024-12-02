@@ -34,6 +34,18 @@ nav ul {
     cursor: pointer;
 }
 
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(79, 79, 79);
+    color: white;
+    padding: 3%;
+}
+
+.img-footer{
+    width: 40px;
+}
+
 .Nome{
     font-size: xx-large;
     font-weight: bold;
