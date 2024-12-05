@@ -127,3 +127,10 @@ footer{
 .logo{
     width: 100%;
 }
+
+.titulo{
+    color: rgb(221, 160, 221);
+    font-weight: bold;
+    font-size: x-large;
+    
+}
